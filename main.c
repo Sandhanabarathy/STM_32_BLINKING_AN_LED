@@ -27,7 +27,7 @@ int main(void)
 			*ptr_GPIO_ODR |= (1 << 12);
 		//Software Delay
 			 for(uint32_t i = 0; i < 500000; i++);
-		//GREEN LED ON
+		//GREEN LED OFF
 			*ptr_GPIO_ODR &= ~(1 << 12);
 		//Software Delay
 			 for(uint32_t i = 0; i < 500000; i++);
