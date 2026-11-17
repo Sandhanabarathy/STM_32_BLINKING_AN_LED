@@ -12,7 +12,7 @@ int main(void)
 	//CONFIGURE THE MODE OF I/O PIN
 
 	//CLEAR THE MODE REG
-	*ptr_GPIO_MODREG &= ~(3 << 12);
+	*ptr_GPIO_MODREG &= ~(3 << 24);
 
 	//SET THE MODE REG
 	*ptr_GPIO_MODREG |= (1 << 24);
